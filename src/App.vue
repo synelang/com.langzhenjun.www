@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <header></header>
     <img class="logo" src="./assets/logo.png">
     <hello></hello>
     <p>
@@ -23,10 +24,12 @@
 </template>
 
 <script>
+import Header from './components/Header'
 import Hello from './components/Hello'
 
 export default {
   components: {
+    Header,
     Hello
   }
 }

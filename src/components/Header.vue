@@ -1,5 +1,5 @@
 <template>
-  <div class="hello">
+  <div id="header">
     <h1 v-on:click="clickHello">{{ message }}</h1>
   </div>
 </template>
